@@ -161,11 +161,13 @@ Spécialisé en développement web et logiciels, je peux concevoir des sites vit
 <script type="text/javascript">
 var Employeur = "Nous cherchons des développeurs compétents!";
 var Candidat = "Embauché !";
-var Job = 1;
-var Cv = 1; 
+var Job = true;
+var Cv = true; 
 	
-	if( Cv !== 0 && Job !== 0 ){
+	if( Cv !== false && Job !== false ){
 	console.log(Employeur + ", Donc vous êtes" + Candidat)
+	}else{
+	console.log("Veuillez consulter Pôle Emploi.. ")
 	}
 </script>
 
